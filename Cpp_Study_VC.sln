@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab01", "Lab01\Lab01.vcxproj", "{226C0728-03D7-417B-A302-38BC24A6ED31}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab_1-UpDown", "Lab01\Lab01.vcxproj", "{226C0728-03D7-417B-A302-38BC24A6ED31}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PE_2-3", "PE_2-3\PE_2-3.vcxproj", "{5C3482C9-7E8E-4E75-9DB6-11EDD8B2BDFC}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PE_3-1", "PE_3-1\PE_3-1.vcxproj", "{09D14A38-5B2F-47B3-992F-BA90BB7C123B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab_3-Hangman", "Lab_3-Hangman\Lab_3-Hangman.vcxproj", "{37D38F68-22C5-499F-A265-002DB3839257}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PE_3-5", "PE_3-5\PE_3-5.vcxproj", "{2913ACD0-5D5C-4214-BD3D-D2E44539F968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{37D38F68-22C5-499F-A265-002DB3839257}.Release|x64.Build.0 = Release|x64
 		{37D38F68-22C5-499F-A265-002DB3839257}.Release|x86.ActiveCfg = Release|Win32
 		{37D38F68-22C5-499F-A265-002DB3839257}.Release|x86.Build.0 = Release|Win32
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Debug|x64.ActiveCfg = Debug|x64
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Debug|x64.Build.0 = Debug|x64
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Debug|x86.ActiveCfg = Debug|Win32
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Debug|x86.Build.0 = Debug|Win32
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Release|x64.ActiveCfg = Release|x64
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Release|x64.Build.0 = Release|x64
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Release|x86.ActiveCfg = Release|Win32
+		{2913ACD0-5D5C-4214-BD3D-D2E44539F968}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
