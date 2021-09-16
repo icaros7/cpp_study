@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <string>
+#include <random>
 
 using namespace std;
 
@@ -14,8 +15,12 @@ int main() {
 	string solution;
 	string list[] = { "the", "c++", "programming", "language" };
 
-	int n = rand() % 4;
-	solution = list[n]; // rand()를 통한 무작위 list 선택
+	random_device rd;
+	mt19937 gen(rd());
+	uniform_int_distribution<int> dis(0, 99);
+
+	int n = dis(gen) % 4;
+	solution = list[n]; // 무작위 list 선택
 
 	// _로 채워진 solution 길이 만큼의 string 생성
 	string guess(solution.length(), '_');
