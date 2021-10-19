@@ -29,6 +29,10 @@ public:
         p = new Student[size];
     }
 
+    ~MyClass() {
+        delete[] p; // 소멸자를 이용해 메모리 반환
+    }
+
     // getter
     string getClassName() { return className; }
     Student* getStudent() { return p; }
@@ -44,7 +48,6 @@ public:
 
             getStudent()[i].setName(name);
         }
-
     }
 
     // 학급 학생 정보 모두 출력
