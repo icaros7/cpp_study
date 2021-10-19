@@ -31,5 +31,7 @@ int main() {
         else { cout << p[k] << endl; }
     }
 
+    delete[] p; // 동적 배열 메모리 반환
+
     return 0;
 }
