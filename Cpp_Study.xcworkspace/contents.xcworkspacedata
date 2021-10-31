@@ -1,34 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:PE_10-1/PE_10-1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_6-5/PE_6-5.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_6-1/PE_6-1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_5-4/PE_5-4.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_5-2/PE_5-2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Lab_5-1/Lab_5-1.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_4-3/PE_4-3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_4-2/PE_4-2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_3-5/PE_3-5.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PE_3-1/PE_3-1.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Chap_3">
+      <FileRef
+         location = "group:PE_3-5/PE_3-5.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_3-1/PE_3-1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chap_4">
+      <FileRef
+         location = "group:PE_4-3/PE_4-3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_4-2/PE_4-2.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chap_5">
+      <FileRef
+         location = "group:PE_5-4/PE_5-4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_5-2/PE_5-2.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Lab_5-1/Lab_5-1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chap_6">
+      <FileRef
+         location = "group:PE_6-5/PE_6-5.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_6-1/PE_6-1.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chap_10">
+      <FileRef
+         location = "group:PE_10-4/PE_10-4.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_10-3/PE_10-3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_10-1/PE_10-1.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:PE_10-2/PE_10-2.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
