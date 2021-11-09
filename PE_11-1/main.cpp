@@ -25,8 +25,8 @@ public:
     }
 
     // getter
-    int getX() { return x; }
-    int getY() { return y; }
+    int getX() const { return x; } // const 키워드 사용을 통한 값 보장
+    int getY() const { return y; } // const 키워드 사용을 통한 값 보장
 };
 
 class ThreeDPoint : Point{
@@ -42,7 +42,7 @@ public:
     /// + 연산자 오버로딩
     /// \param slave 피연산자
     /// \return this 와 slave 의 각 좌표 값의 합을 좌표로 하는 객체
-    ThreeDPoint operator+(ThreeDPoint &slave) { // TODO: 왜 const ThreeDPoint &slave로 하면 안되는지 알아보기
+    ThreeDPoint operator+(const ThreeDPoint &slave) {
         ThreeDPoint result(getX() + slave.getX(), getY() + slave.getY(), getZ() + slave.getZ());
         return result;
     }
@@ -53,7 +53,7 @@ public:
     }
 
     // getter
-    int getZ() { return z; }
+    int getZ() const { return z; } // const 키워드 사용을 통한 값 보장
 };
 
 int main() {
